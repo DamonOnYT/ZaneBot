@@ -117,13 +117,18 @@ const ZaneQuoteList = [
     'yeah go explore her expired tits :sparkles:',
     'i told you to do it so suck my VAGINA',
     'just make sure u hide Zane.Nudes',
-    'remember when i fucked you hard'
+    'remember when i fucked you hard',
+    '2 many hoes but it’s damon',
+    'wow i am honoured to be pinned by damon',
+    'do not put this on the bot or i will put u on the blacklist for my house',
+    'bobby’s forehead = plane runway',
+    'me waiting to be cancelled by olly and bobby'
 
 ]
 
 client.on('ready', () => {
 console.log(`Bot Started`)
-client.user.setActivity(`hey zane quote`)
+client.user.setActivity(`hey zane quote | hey zane invite`, {type: "WATCHING"})
 });
 
 client.on('message', async msg => {
