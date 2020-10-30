@@ -65,7 +65,25 @@ const ZaneQuoteList = [
     'WHAT THE FUCK DID YOU SAY TO ME YOU LITTLE SHIT',
     'executive straight sex?',
     'did u have sex with the teacher',
-    'do i lOOK LIKE A SEX DOLL'
+    'do i lOOK LIKE A SEX DOLL',
+    'i have sex with pans im pansexual',
+    'i would neevr have sex with a male or trans',
+    'just because I have a pharmacy room doesn’t mean I have a sex room',
+    'damn he\'s asking for sex',
+    'does pansexual mean where u have sex with a pan',
+    'it’s not gay until you have the sex with another male, right?',
+    'fuck i am leaving keyfm for pulse',
+    'I SAID IM GONNA FUCK HIM UP',
+    'FUCK UNI FUCK UNI',
+    'yes ur a homie so I want to fuck u',
+    'straight people can say they want to fuck people',
+    'I make gay remarks sure but im straight as fuck',
+    'i been fucking bitches since i was a newborn',
+    'fuck me now no homo',
+    'it’s not everyday U get to fuck ppl in keyfm',
+    'and he said “can’t be fucked”',
+    'SHUT THE HELL UP U FUCKING FAT BITCHES',
+    'oh shut the fuck up u fucking RATS'
 ]
 
 client.on('ready', () => {
