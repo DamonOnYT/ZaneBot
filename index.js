@@ -151,7 +151,7 @@ client.on('message', async msg => {
     if (msgcontent.includes('servercount')) {
 
         console.log(`${msg.author.tag} ran the servers command in ${msg.guild.name}`)
-        return msg.reply(`I am in ${bot.guilds.cache.size} servers`);
+        return msg.reply(`I am in ${client.guilds.cache.size} servers`);
     }
     
     
