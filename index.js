@@ -96,6 +96,7 @@ client.on('message', async msg => {
     if (msgcontent.includes('quotes') || msgcontent.includes('quote')) {
         const ClarkQuote = new Discord.MessageEmbed;
         await ClarkQuote.setDescription(ZaneQuoteList[Math.floor(Math.random()*ZaneQuoteList.length)]);
+        await ClarkQuote.setFooter('Zane#6149');
         return msg.reply(ClarkQuote);
     }
     
