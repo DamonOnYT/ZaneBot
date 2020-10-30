@@ -94,10 +94,12 @@ client.on('message', async msg => {
     const msgcontent = msg.content.toLowerCase();
     if (!msgcontent.startsWith('hey zane')) return;
     if (msgcontent.includes('quotes') || msgcontent.includes('quote')) {
-        const ClarkQuote = new Discord.MessageEmbed;
-        await ClarkQuote.setDescription(ZaneQuoteList[Math.floor(Math.random()*ZaneQuoteList.length)]);
-        await ClarkQuote.setFooter('Zane#6149');
-        return msg.reply(ClarkQuote);
+        const ZaneQuote = new Discord.MessageEmbed;
+        await ZaneQuote.setDescription(ZaneQuoteList[Math.floor(Math.random()*ZaneQuoteList.length)]);
+        await ZaneQuote.setFooter('Zane#6149');
+        await ZaneQuote.setImage('https://cdn.discordapp.com/avatars/278627940403773441/07cdd9b678cd53aa27374dc149163229.png')
+        
+        return msg.reply(ZaneQuote);
     }
     
     
