@@ -1,0 +1,23 @@
+{
+  "name": "zanebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamonOnYT/ZaneBot.git"
+  },
+  "author": "DamonOnYT & HexDevv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamonOnYT/ZaneBot/issues"
+  },
+  "homepage": "https://github.com/DamonOnYT/ZaneBot#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0"
+  }
+}
