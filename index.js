@@ -84,7 +84,27 @@ const ZaneQuoteList = [
     'and he said “can’t be fucked”',
     'SHUT THE HELL UP U FUCKING FAT BITCHES',
     'oh shut the fuck up u fucking RATS',
-    'I LOVE YOU PARKER BYE'
+    'I LOVE YOU PARKER BYE',
+    'damon let me stroke ur pussy',
+    'actually killing myself',
+    'never have children they’re so fucking annoying',
+    'CAN WE BACKDOOR HIS PC OR RAT IT OR SMETHING',
+    'can my mum do anything bc ill tell u she’ll sue him LMFAODNAKQKWJ',
+    'see you in court',
+    'ok becs ill make sure my mum sues you',
+    'i want to get drunk AGAIN',
+    'MY MUM HEARD THAT BYE\n SHE HEARD BIG BREASTS BYE\n BC I TURNED MY AIRPODS OFF',
+    'my virginity was lost when i was 13 luv',
+    'i want to click it but my girlfriend is next to me',
+    'can i ask my mum to run -- over with her white car! **keep in mind, she is not the imposter**',
+    'guys where does -- live ill go into his house and switch the server to me then jump out',
+    'Parker maybe u should fuck -- and steal the server that would help',
+    'bro i am hella pissed i could fucking tie my girlfriend to the bed and burn her alive !',
+    'no bc im going to my gfs house later too and it’ll ruin my night :(',
+    'no thanks parker i have my gf to do that LFNAODNA',
+    'no MY GFS FAMILY ARE OVER FOR DINNER',
+    'time to change keyfm to aqua guys !'
+
 ]
 
 client.on('ready', () => {
@@ -99,6 +119,11 @@ client.on('message', async msg => {
 
         console.log(`${msg.author.tag} ran the quote command in ${msg.guild.name}`)
         return msg.channel.send(ZaneQuoteList[Math.floor(Math.random()*ZaneQuoteList.length)]);
+    }
+    if (msgcontent.includes('invite')) {
+
+        console.log(`${msg.author.tag} ran the invite command in ${msg.guild.name}`)
+        return msg.channel.send('Invite me to your server: <https://discord.com/oauth2/authorize?client_id=771592519624425493&scope=bot&permissions=16384>');
     }
     
     
