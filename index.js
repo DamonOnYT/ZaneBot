@@ -146,7 +146,12 @@ client.on('message', async msg => {
     if (msgcontent.includes('invite')) {
 
         console.log(`${msg.author.tag} ran the invite command in ${msg.guild.name}`)
-        return msg.channel.send('Invite me to your server: <https://discord.com/oauth2/authorize?client_id=771592519624425493&scope=bot&permissions=16384>');
+        return msg.reply('Invite me to your server: <https://discord.com/oauth2/authorize?client_id=771592519624425493&scope=bot&permissions=16384>');
+    }
+    if (msgcontent.includes('invite')) {
+
+        console.log(`${msg.author.tag} ran the servers command in ${msg.guild.name}`)
+        return msg.reply(`I am in ${bot.guilds.cache.size} servers`);
     }
     
     
