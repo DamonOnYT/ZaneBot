@@ -122,7 +122,11 @@ const ZaneQuoteList = [
     'wow i am honoured to be pinned by damon',
     'do not put this on the bot or i will put u on the blacklist for my house',
     'bobby’s forehead = plane runway',
-    'me waiting to be cancelled by olly and bobby'
+    'me waiting to be cancelled by olly and bobby',
+    'i am the real icon who is olly',
+    'imagine sending that to some1 who is new to keyfm',
+    'tell topgg to die',
+    'message me again and ill drag u by ur hair outside of ur house and stomp u'
 
 ]
 
