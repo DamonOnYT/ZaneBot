@@ -83,7 +83,8 @@ const ZaneQuoteList = [
     'it’s not everyday U get to fuck ppl in keyfm',
     'and he said “can’t be fucked”',
     'SHUT THE HELL UP U FUCKING FAT BITCHES',
-    'oh shut the fuck up u fucking RATS'
+    'oh shut the fuck up u fucking RATS',
+    'I LOVE YOU PARKER BYE'
 ]
 
 client.on('ready', () => {
