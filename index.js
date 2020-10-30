@@ -96,7 +96,7 @@ client.on('message', async msg => {
     if (!msgcontent.startsWith('hey zane')) return;
     if (msgcontent.includes('quotes') || msgcontent.includes('quote')) {
 
-        console.log(`${msg.author.tag} ran a command in ${msg.guild.name}`)
+        console.log(`${msg.author.tag} ran the quote command in ${msg.guild.name}`)
         return msg.channel.send(ZaneQuoteList[Math.floor(Math.random()*ZaneQuoteList.length)]);
     }
     
