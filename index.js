@@ -103,7 +103,21 @@ const ZaneQuoteList = [
     'no bc im going to my gfs house later too and it’ll ruin my night :(',
     'no thanks parker i have my gf to do that LFNAODNA',
     'no MY GFS FAMILY ARE OVER FOR DINNER',
-    'time to change keyfm to aqua guys !'
+    'time to change keyfm to aqua guys !',
+    'how did -- win most funniest staff fucking rigged awards dumb bitch awards',
+    'both of u suck my dick and shut up',
+    'shut up parker u deformed human u dumb ass bitch yute dumb cunt homeless bitch american trump looking ass rejection dumb fuck bitch ass dumb clown',
+    'i don’t want water in my penis',
+    'i only have a bath when it’s with my gf',
+    'she’s not going to peg me when im nothing but nice :upside_down:',
+    'if straight people call each other gay... do gay people call each other straight',
+    'love kids me',
+    'we should fuck some time :sweat_drops:',
+    'im the new ivan guys hey !!!',
+    'yeah go explore her expired tits :sparkles:',
+    'i told you to do it so suck my VAGINA',
+    'just make sure u hide Zane.Nudes',
+    'remember when i fucked you hard'
 
 ]
 

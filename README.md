@@ -1,4 +1,5 @@
 # ZaneBot
+Quotes from the one and only Zane from KeyFM!!
 
-Code mainly stolen from HexDev
-https://github.com/HexDevv/Clark-Bot
+
+###### [Base code stolen from HexDev lol](https://github.com/HexDevv/Clark-Bot)
