@@ -136,7 +136,8 @@ const ZaneQuoteList = [
     'ur still a slow bitch',
     'fuck off\n u trump supporting\n bitch\n duck lookin ass',
     'trump suPPORTER !',
-    'do u want to go out of this server quicker than u came in'
+    'do u want to go out of this server quicker than u came in',
+    'i love it when my gf does the tip !'
 
 ]
 
