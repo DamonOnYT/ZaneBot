@@ -137,7 +137,9 @@ const ZaneQuoteList = [
     'fuck off\n u trump supporting\n bitch\n duck lookin ass',
     'trump suPPORTER !',
     'do u want to go out of this server quicker than u came in',
-    'i love it when my gf does the tip !'
+    'i love it when my gf does the tip !',
+    '@Ben if u don’t blur my name i will be suing you',
+    'at this point im gonna be more inactive than -- if another quote is added'
 
 ]
 
