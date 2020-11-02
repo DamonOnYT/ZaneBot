@@ -126,7 +126,17 @@ const ZaneQuoteList = [
     'i am the real icon who is olly',
     'imagine sending that to some1 who is new to keyfm',
     'tell topgg to die',
-    'message me again and ill drag u by ur hair outside of ur house and stomp u'
+    'message me again and ill drag u by ur hair outside of ur house and stomp u',
+    '@Bex owo let’s lose nnn together :heartbeat:',
+    '@Benny stop trying to hit on my wife :flushed:',
+    'I DIDNT REALISE I PRESSED RANDOM BUTTONS LMFAOAKSNQ',
+    'oh yeah it’s broken',
+    'im out on a date with my gf :(',
+    'FFS I CHOKED ON MY FOOD BC OF U',
+    'ur still a slow bitch',
+    'fuck off\n u trump supporting\n bitch\n duck lookin ass',
+    'trump suPPORTER !',
+    'do u want to go out of this server quicker than u came in'
 
 ]
 
