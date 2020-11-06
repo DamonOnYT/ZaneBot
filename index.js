@@ -3,7 +3,7 @@
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-require('dotenv').config()
+require('dotenv').config();
 
 // most of these r out of the starboard
 const ZaneQuoteList = [
@@ -143,35 +143,40 @@ const ZaneQuoteList = [
 
 ]
 
-client.on('ready', () => {
-console.log(`Bot Started`)
-client.user.setActivity(`hey zane quote | hey zane invite`, {type: "WATCHING"})
+client.once('ready', () => {
+    console.log(`Bot is online`);
+    client.user.setActivity(`${process.env.prefix} quote | ${process.env.prefix} invite`)
 });
 
-client.on('message', async msg => {
-    const msgcontent = msg.content.toLowerCase();
-    if (!msgcontent.startsWith('hey zane')) return;
-    if (msgcontent.includes('quotes') || msgcontent.includes('quote')) {
+client.on('message', message => {
 
-        console.log(`${msg.author.tag} ran the quote command in ${msg.guild.name}`)
-        return msg.channel.send(ZaneQuoteList[Math.floor(Math.random()*ZaneQuoteList.length)]);
-    }
-    if (msgcontent.includes('invite')) {
+    if (!message.content.toLowerCase().startsWith(prefix) || message.author.bot) return;
 
-        console.log(`${msg.author.tag} ran the invite command in ${msg.guild.name}`)
-        return msg.reply('Invite me to your server: <https://discord.com/oauth2/authorize?client_id=771592519624425493&scope=bot&permissions=16384>');
-    }
-    if (msgcontent.includes('servercount')) {
+    const args = message.content.toLowerCase().slice(prefix.length).trim().split(/ +/);
 
-        console.log(`${msg.author.tag} ran the servers command in ${msg.guild.name}`)
-        return msg.reply(`I am in ${client.guilds.cache.size} servers`);
-    }
-    
-    if (msgcontent.includes('daniel')) {
+    if (args[0] === 'quote' || args[0] === 'quotes') {
+        message.channel.send(ZaneQuoteList[Math.floor(Math.random()*ZaneQuoteList.length)]);
+    };
 
-        console.log(`${msg.author.tag} ran the daniel command in ${msg.guild.name}`)
-        return msg.reply(`<@!766677310438113310>`);
-    }
+    if (args[0] === 'invite') {
+        const embed = new Discord.MessageEmbed()
+        .setColor('#16c60c')
+        .setTitle('Invite')
+        .setDescription(`[Click here](https://discord.com/oauth2/authorize?client_id=771592519624425493&scope=bot&permissions=16384>) to add me to your server`);
+        message.channel.send(embed);
+    };
+
+    if (args[0] === 'servercount') {
+        const embed = new Discord.MessageEmbed()
+        .setColor('#16c60c')
+        .setTitle(`I am in **${client.guilds.cache.size}** servers!`);
+        message.channel.send(embed);
+    };
+
+    if (args[0] === 'daniel') {
+        message.reply('<@766677310438113310>')
+    };
     
 });
+
 client.login(process.env.token);
