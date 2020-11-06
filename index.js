@@ -147,7 +147,7 @@ const ZaneQuoteList = [
 
 client.once('ready', () => {
     console.log(`Bot is online`);
-    client.user.setActivity(`${prefix} quote | ${prefix} invite`)
+    client.user.setActivity(`${prefix}quote | ${prefix}invite`)
 });
 
 client.on('message', message => {
