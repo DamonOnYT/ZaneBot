@@ -167,7 +167,7 @@ client.on('message', async msg => {
         return msg.reply(`I am in ${client.guilds.cache.size} servers`);
     }
     
-    if (msgcontent.includes('<@766677310438113310>')) {
+    if (msgcontent.includes('daniel')) {
 
         console.log(`${msg.author.tag} ran the daniel command in ${msg.guild.name}`)
         return msg.reply(`<@766677310438113310>`);
