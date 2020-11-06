@@ -170,7 +170,7 @@ client.on('message', async msg => {
     if (msgcontent.includes('daniel')) {
 
         console.log(`${msg.author.tag} ran the daniel command in ${msg.guild.name}`)
-        return msg.reply(`<@!766677310438113310>`);
+        return msg.channel.send(`<@!766677310438113310>`);
     }
     
 });
