@@ -5,6 +5,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 require('dotenv').config();
 
+const prefix = 'hey zane '
+
 // most of these r out of the starboard
 const ZaneQuoteList = [
     'give me access damon so i can ddos myself',
@@ -145,7 +147,7 @@ const ZaneQuoteList = [
 
 client.once('ready', () => {
     console.log(`Bot is online`);
-    client.user.setActivity(`${process.env.prefix} quote | ${process.env.prefix} invite`)
+    client.user.setActivity(`${prefix} quote | ${prefix} invite`)
 });
 
 client.on('message', message => {
