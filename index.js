@@ -250,6 +250,7 @@ client.on('message', message => {
     };
 
     if (args[0] === 'daniel') {
+        message.reply('<@766677310438113310>');
         message.reply('<@766677310438113310>')
     };
     
