@@ -1,5 +1,4 @@
-// i was lazy and stole HexDev's code
-// Credits: https://github.com/HexDevv/Clark-Bot
+// Credits in the README.md file
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
@@ -160,7 +159,7 @@ const ZaneQuoteList = [
     'just email keyfmlawyer@gmail.com and we\'ll get in touch',
     'it’s an addiction now',
     'where’s the 93% drunk one ffs',
-    'toaster in bath = bath bomb\n\n*dev note: for legal reasons this is a **joke***',
+    'toaster in bath = bath bomb',
     'we all really said :sparkles: lets abuse :sparkles:',
     'cant wait for becs to shank us',
     'wap wap wap wap',
@@ -200,11 +199,23 @@ const ZaneQuoteList = [
     'what a hot sexy beast chocolate icecream finger lickin\' lady',
     'see.. that\'s not what you were saying in bed last-',
     'im thankful for @Becs because she is having my babies',
-    '@Becs let’s do cocaine tonight!\n\n*dev note: for legal reasons this is a **joke***',
+    '@Becs let’s do cocaine tonight!',
     'only i use becs :/',
     'light mode is actually lovely',
     'demon -> damon same thing',
-    'love u 2 damon <3\n yes homo lets fuck'
+    'love u 2 damon <3\n yes homo lets fuck',
+    'just a shame the shower and bath doesn’t drown me',
+    'best dick?!',
+    'i messaged them letting them know im not gay',
+    'i like them but sometimes',
+    'my gf is mine >:>',
+    'hope he shouts poggers in the exam',
+    'and then I did history religious studies and ict',
+    'STOP IM SUPPOSED TO BE ANGRY NOT LAUGHING',
+    'im about to chuck myself out the window',
+    'love how damon is being blamed when i was in a vc with him all night',
+    'time to pay hangour £55 xxxx',
+    'i dnt play it as much my gf literally plays it more than me LOOOOOOl'
 
 ]
 
