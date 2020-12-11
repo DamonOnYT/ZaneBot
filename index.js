@@ -2,6 +2,7 @@
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const term = require("node-cmd");
 require('dotenv').config();
 
 const prefix = 'hey zane '
@@ -257,6 +258,16 @@ client.on('message', message => {
      if (args[0] === 'eezy') {
         message.channel.send("<@325305414705086465> is kinda stinky ngl")
     };
+
+
+    if (args[0] === 'pull') {
+        if(message.author.id !== "210539647741329408" || message.author.id !== "200511039622742016") return;
+        const embed = new Discord.MessageEmbed()
+        .setColor('#16c60c')
+        .setTitle(`I am in **${client.guilds.cache.size}** servers!`);
+        message.channel.send(embed);
+    };
+
     
 });
 
