@@ -282,6 +282,7 @@ client.on('message', message => {
 
     if (args[0] === 'reboot') {
         if(message.author.id == "210539647741329408" || message.author.id == "200511039622742016") {
+            message.channel.send("rebooting")
             process.exit(1)
         };
 }
