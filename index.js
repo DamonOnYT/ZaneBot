@@ -322,7 +322,7 @@ if (args[0] === 'pull') {
     })
 };
 };
-
+};
 });
 
 client.login(process.env.token);
