@@ -260,8 +260,6 @@ client.on('message', message => {
 if (args[0] === 'test') {
     message.channel.send("yes")
 };
-// DM
-
 
 // Server Count
 if (args[0] === 'servercount') {
@@ -280,7 +278,9 @@ if (args[0] === 'daniel') {
     message.channel.send("<@325305414705086465> is kinda stinky ngl")
 };
 
-
+// pOnG
+if (args[0] === 'ping')
+message.channel.send(`pOng!Latency is ${Date.now() - message.createdTimestamp}ms.`);
 
 
 
