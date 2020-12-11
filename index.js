@@ -243,6 +243,12 @@ client.on('message', message => {
         message.channel.send(embed);
     };
 
+    client.on('message', async message => {
+        if (message.channel.type == 'dm') {
+            message.reply("i aint zane, why u dming me");
+        }
+    });
+
     if (args[0] === 'servercount') {
         const embed = new Discord.MessageEmbed()
         .setColor('#16c60c')
