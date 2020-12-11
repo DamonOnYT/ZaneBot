@@ -262,10 +262,11 @@ client.on('message', message => {
 
     if (args[0] === 'pull') {
         if(message.author.id !== "210539647741329408" || message.author.id !== "200511039622742016") return;
-        const embed = new Discord.MessageEmbed()
-        .setColor('#16c60c')
-        .setTitle(`I am in **${client.guilds.cache.size}** servers!`);
-        message.channel.send(embed);
+        term.get("(cd /root/ZaneBot && git pull origin master)",
+        function (err, data) {
+          if (err) console.log(err);
+          message.channel.send(data, { code: "asciidoc" });
+        })
     };
 
     
