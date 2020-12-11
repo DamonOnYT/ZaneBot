@@ -4,11 +4,29 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const term = require("node-cmd");
 require('dotenv').config();
-
+//sets prefix, if it isnt obvious enough
 const prefix = 'hey zane '
 
-// most of these r out of the starboard
+
+// ========================== QUOTES ==========================
+
+
+// most of these r out of the starboard, just fkn yEET them in from there
 const ZaneQuoteList = [
+    'think he rocketed into space',
+    'no i will eat ur melon',
+    'Becs let me put you in the back of my van :point_right::point_left:',
+    'Elliot stop breaking my server rules you dumb whore',
+    'we should of added “Staff most likely to be fired”',
+    'Elliott is A WHORE SPREAD IT AROUND',
+    'stop sending my jingle out you lesbian',
+    'ok Gody suck my FANNY',
+    'god this turned into step sister im stuck',
+    'y’all are weird if u want fruit on pizza. wouldnt be surprised you started putting strawberries and bananas on your pizzas too',
+    '@Juwulia why are you playing nursery rhymes on the radio',
+    'one direction is just bomb',
+    'if I don’t win most funniest award awards are cancelled',
+    'if biden doesn’t win shut keyfm',
     'give me access damon so i can ddos myself',
     'i keep saying not before a lot of my sentences',
     'if i said i love u 2 my mum via next she’d probably think im suicidal',
@@ -218,6 +236,7 @@ const ZaneQuoteList = [
     'time to pay hangour £55 xxxx',
     'i dnt play it as much my gf literally plays it more than me LOOOOOOl'
 
+    // ========================== ACTIVITIES ==========================
 ]
 
 client.once('ready', () => {
@@ -228,6 +247,7 @@ client.once('ready', () => {
 client.on('message', message => {
     if(message.author.bot) return;
 
+// ========================== MAKE BOT WORK-INATOR ==========================
 
     // lol funny
     if (message.channel.type == 'dm') {
@@ -252,13 +272,14 @@ client.on('message', message => {
 
 
 
-
+// ========================== RANDOM HAHA FUNNY WEIRD ==========================
 
  
 
 //misc random commands
 if (args[0] === 'test') {
-    message.channel.send("yes")
+    if(message.author.id == "210539647741329408" || message.author.id == "200511039622742016") {
+    message.channel.send("hey you didnt break me, good job")
 };
 
 // Server Count
@@ -287,8 +308,8 @@ message.channel.send(`pOng! Latency is \`${Date.now() - message.createdTimestamp
 // updating
 if (args[0] === 'reboot') {
     if(message.author.id == "210539647741329408" || message.author.id == "200511039622742016") {
-        message.channel.send("rebooting")
-        process.exit(1)
+    message.channel.send("rebooting")
+    process.exit(1)
     };
 }
 
