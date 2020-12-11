@@ -265,6 +265,10 @@ client.on('message', message => {
         message.channel.send("<@325305414705086465> is kinda stinky ngl")
     };
 
+    if (args[0] === 'test') {
+        message.channel.send("yes")
+    };
+
     if (args[0] === 'pull') {
         if(message.author.id == "210539647741329408" || message.author.id == "200511039622742016") {
         term.get("(cd /root/ZaneBot && git pull)",
