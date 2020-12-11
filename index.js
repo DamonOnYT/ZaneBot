@@ -243,49 +243,59 @@ client.on('message', message => {
         message.channel.send(embed);
     };
 
-    client.on('message', async message => {
-        if (message.channel.type == 'dm') {
-            message.reply("i aint zane, why u dming me");
-        }
-    });
-
-    if (args[0] === 'servercount') {
-        const embed = new Discord.MessageEmbed()
-        .setColor('#16c60c')
-        .setTitle(`I am in **${client.guilds.cache.size}** servers!`);
-        message.channel.send(embed);
-    };
-
-    if (args[0] === 'daniel') {
-        message.reply('<@766677310438113310>');
-        message.reply('<@766677310438113310>')
-    };
-    
-     if (args[0] === 'eezy') {
-        message.channel.send("<@325305414705086465> is kinda stinky ngl")
-    };
-
-    if (args[0] === 'test') {
-        message.channel.send("yes")
-    };
-
-    if (args[0] === 'pull') {
-        if(message.author.id == "210539647741329408" || message.author.id == "200511039622742016") {
-        term.get("(cd /root/ZaneBot && git pull)",
-        function (err, data) {
-          if (err) console.log(err);
-          message.channel.send(data, { code: "asciidoc" });
-        })
-    };
-    };
 
 
-    if (args[0] === 'reboot') {
-        if(message.author.id == "210539647741329408" || message.author.id == "200511039622742016") {
-            message.channel.send("rebooting")
-            process.exit(1)
-        };
+
+
+ 
+
+//misc random commands
+if (args[0] === 'test') {
+    message.channel.send("yes")
+};
+// DM
+    if (message.channel.type == 'dm') {
+        message.reply("i aint zane, why u dming me");
+    }
+
+// Server Count
+if (args[0] === 'servercount') {
+    const embed = new Discord.MessageEmbed()
+    .setColor('#16c60c')
+    .setTitle(`I am in **${client.guilds.cache.size}** servers!`);
+    message.channel.send(embed);
+};
+// spam ping daniel
+if (args[0] === 'daniel') {
+    message.reply('<@766677310438113310>');
+    message.reply('<@766677310438113310>')
+};
+// spam ping eezy
+ if (args[0] === 'eezy') {
+    message.channel.send("<@325305414705086465> is kinda stinky ngl")
+};
+
+
+
+
+
+// updating
+if (args[0] === 'reboot') {
+    if(message.author.id == "210539647741329408" || message.author.id == "200511039622742016") {
+        message.channel.send("rebooting")
+        process.exit(1)
+    };
 }
+
+if (args[0] === 'pull') {
+    if(message.author.id == "210539647741329408" || message.author.id == "200511039622742016") {
+    term.get("(cd /root/ZaneBot && git pull)",
+    function (err, data) {
+      if (err) console.log(err);
+      message.channel.send(data, { code: "asciidoc" });
+    })
+};
+};
 
 });
 
