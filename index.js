@@ -280,7 +280,7 @@ if (args[0] === 'daniel') {
 
 // pOnG
 if (args[0] === 'ping')
-message.channel.send(`pOng!Latency is ${Date.now() - message.createdTimestamp}ms.`);
+message.channel.send(`pOng! Latency is \`${Date.now() - message.createdTimestamp}ms.\``);
 
 
 
