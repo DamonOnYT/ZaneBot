@@ -255,10 +255,7 @@ client.on('message', message => {
     };
     
      if (args[0] === 'eezy') {
-        const embed = new Discord.MessageEmbed()
-        .setColor('#16c60c')
-        .setTitle(`kinda stinks tbh`);
-        message.channel.send(embed);
+        message.channel.send("<@325305414705086465> is kinda stinky ngl")
     };
     
 });
