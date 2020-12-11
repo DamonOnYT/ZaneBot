@@ -226,6 +226,10 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
+    // lol funny
+    if (message.channel.type == 'dm') {
+        message.author.send("i aint zane, why u dming me");
+    }
 
     if (!message.content.toLowerCase().startsWith(prefix) || message.author.bot) return;
 
@@ -254,9 +258,7 @@ if (args[0] === 'test') {
     message.channel.send("yes")
 };
 // DM
-    if (message.channel.type == 'dm') {
-        message.reply("i aint zane, why u dming me");
-    }
+
 
 // Server Count
 if (args[0] === 'servercount') {
