@@ -226,15 +226,18 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
+    if(message.author.bot) return;
+
+
     // lol funny
     if (message.channel.type == 'dm') {
         message.author.send("i aint zane, why u dming me");
     }
 
-    if (!message.content.toLowerCase().startsWith(prefix) || message.author.bot) return;
-
+    if (!message.content.toLowerCase().startsWith(prefix)) return;
     const args = message.content.toLowerCase().slice(prefix.length).trim().split(/ +/);
 
+    // Commands
     if (args[0] === 'quote' || args[0] === 'quotes') {
         message.channel.send(ZaneQuoteList[Math.floor(Math.random()*ZaneQuoteList.length)]);
     };
