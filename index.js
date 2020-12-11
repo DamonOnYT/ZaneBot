@@ -254,6 +254,13 @@ client.on('message', message => {
         message.reply('<@766677310438113310>')
     };
     
+     if (args[0] === 'eezy') {
+        const embed = new Discord.MessageEmbed()
+        .setColor('#16c60c')
+        .setTitle(`kinda stinks tbh`);
+        message.channel.send(embed);
+    };
+    
 });
 
 client.login(process.env.token);
