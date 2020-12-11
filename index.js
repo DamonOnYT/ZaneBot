@@ -262,7 +262,7 @@ client.on('message', message => {
 
     if (args[0] === 'pull') {
         if(message.author.id == "210539647741329408" || message.author.id == "200511039622742016") {
-        term.get("(cd /root/ZaneBot && git pull origin master)",
+        term.get("(cd /root/ZaneBot && git pull)",
         function (err, data) {
           if (err) console.log(err);
           message.channel.send(data, { code: "asciidoc" });
