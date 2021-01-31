@@ -278,7 +278,8 @@ const ZaneQuoteList = [
     'liam if we hire u as a developer can we have the math question 9+10 thing thanks i loved the daily workout for my brain',
     'why not just roll up n smoke weed',
     'i said @❖ Becs is hot',
-    'we were fucking undercover u wernt supposed to tell anyone'
+    'we were fucking undercover u wernt supposed to tell anyone',
+    'ok no who unbanned this geeza'
 
     // ========================== ACTIVITIES ==========================
 ]
