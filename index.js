@@ -279,7 +279,9 @@ const ZaneQuoteList = [
     'why not just roll up n smoke weed',
     'i said @❖ Becs is hot',
     'we were fucking undercover u wernt supposed to tell anyone',
-    'ok no who unbanned this geeza'
+    'ok no who unbanned this geeza',
+    'only person im nice to is @jamol',
+    'true i started the bushfires'
 
     // ========================== ACTIVITIES ==========================
 ]
